@@ -1,0 +1,119 @@
+/* shared style  */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: #1E3444;
+}
+.disply-sizing{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.primary-btn{
+    height: 60px;
+    width: 200px;
+    border-radius: 16px;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(145deg, #467FE9, #B830E7);
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.secondary-btn{
+    height: 60px;
+    width: 200px;
+    color: rgb(255, 255, 255);
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+/* shared style ends here  */
+/* header section style start here  */
+.header-logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.header-title{
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255)
+}
+.first-side-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 120px;
+    border-bottom: 1px solid rgba(198, 198, 198, 0.259);
+}
+.navigation-bar ul>li{
+    list-style: none;
+    padding: 20px 0px;
+}
+.navigation-bar ul{
+    display: flex;
+    border: 1px solid rgba(198, 198, 198, 0.259);
+    border-radius: 16px;
+}
+.navigation-bar ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.50rem;
+    font-weight: 300;
+    margin: 0px 10px;
+    padding: 10px 20px;
+}
+.navigation-bar ul a:hover{
+    background-color: #2d5083;
+    background: linear-gradient(145deg, #467FE9, #B830E7);
+    color: black;
+    border-radius: 10px;
+}
+.active-btn{
+    background-color: #2d5083;
+    background: linear-gradient(145deg, #467FE9, #B830E7);
+    color: black;
+    border-radius: 10px;
+}
+.hamburger{
+    height: 50px;
+    width: 50px;
+    display: none;
+}
+
+/* banner section start here  */
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.banner-content{
+    font-size: 2.125rem;
+    font-weight:700;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 60%;
+}
+.banner-image{
+    height: 400px;
+    width: 80%;
+    border: 1px solid white;
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}

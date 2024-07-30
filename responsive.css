@@ -1,0 +1,32 @@
+@media screen and (max-width: 576px) {
+    .hamburger{
+        display: block;
+    }
+    .navigation-bar ul{
+        display: none;
+    }
+    .head-login{
+        display: none;
+    }
+    .navigation-bar{
+        padding: 0px 20px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    .head-login{
+        display: none;
+    }
+    .header-title{
+        font-size: 1.50rem;
+        font-weight: 900;
+        color: rgb(255, 255, 255)
+    }
+    .navigation-bar ul>li{
+        padding: 20px 0px;
+    }
+    .navigation-bar ul a{
+        font-size: 1.125rem;
+        margin: 0px 10px;
+        padding:10px;
+    }
+}
