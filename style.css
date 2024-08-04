@@ -1,73 +1,87 @@
 /* shared style  */
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
     background: #1E3444;
 }
-.disply-sizing{
+
+.disply-sizing {
     max-width: 1440px;
     margin: 0 auto;
 }
-.primary-btn{
+
+.primary-btn {
     height: 60px;
     width: 200px;
     border-radius: 16px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.851);
+    ;
     background: linear-gradient(145deg, #467FE9, #B830E7);
     border: none;
     font-size: 2rem;
     cursor: pointer;
 }
-.secondary-btn{
+
+.secondary-btn {
     height: 60px;
     width: 200px;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.851);
+    ;
     background: none;
     border: none;
     font-size: 2rem;
     cursor: pointer;
 }
+
 /* shared style ends here  */
 /* header section style start here  */
-.header-logo{
+.header-logo {
     width: 50px;
     height: 50px;
     margin-right: 10px;
 }
-.header-title{
+
+.header-title {
     font-size: 2.25rem;
     font-weight: 900;
     color: rgb(255, 255, 255)
 }
-.first-side-head{
+
+.first-side-head {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.navigation-bar{
+
+.navigation-bar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 120px;
     border-bottom: 1px solid rgba(198, 198, 198, 0.259);
 }
-.navigation-bar ul>li{
+
+.navigation-bar ul>li {
     list-style: none;
     padding: 20px 0px;
 }
-.navigation-bar ul{
+
+.navigation-bar ul {
     display: flex;
     border: 1px solid rgba(198, 198, 198, 0.259);
     border-radius: 16px;
 }
-.navigation-bar ul a{
+
+.navigation-bar ul a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 1.50rem;
@@ -75,40 +89,59 @@ body{
     margin: 0px 10px;
     padding: 10px 20px;
 }
-.navigation-bar ul a:hover{
+
+.navigation-bar ul a:hover {
     background-color: #2d5083;
     background: linear-gradient(145deg, #467FE9, #B830E7);
     color: black;
     border-radius: 10px;
 }
-.active-btn{
+
+.active-btn {
     background-color: #2d5083;
     background: linear-gradient(145deg, #467FE9, #B830E7);
     color: black;
     border-radius: 10px;
 }
-.hamburger{
+
+.hamburger {
     height: 50px;
     width: 50px;
     display: none;
 }
 
 /* banner section start here  */
-.banner-container{
+.banner-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 80px;
 }
-.banner-content{
-    font-size: 2.125rem;
-    font-weight:700;
-    color: rgb(255, 255, 255);
+
+.banner-content {
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.851);
+    ;
     text-align: center;
     width: 60%;
+    margin-bottom: 50px;
 }
-.banner-image{
+
+.Exclusive-text {
+    background: linear-gradient(to right, #2198f3, #a408ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.Top-Quality {
+    background: linear-gradient(to right, #2198f3, #b421f3, #d608ff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.banner-image {
     height: 400px;
     width: 80%;
     border: 1px solid white;
@@ -116,4 +149,163 @@ body{
     background-size: cover;
     background-position: center;
     border-radius: 20px;
+    margin-bottom: 100px;
 }
+
+.banner-btn {
+    width: 280px;
+    height: 70px;
+}
+
+.banner-secondary-btn {
+    width: 300px;
+    height: 70px;
+}
+
+.banner-btn-container {
+    margin-bottom: 50px;
+}
+
+.sponsore-container {
+    background-color: rgb(33, 61, 88);
+    height: 100%;
+    width: 100%;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    padding: 20px 0px;
+    padding-left: 68px;
+
+}
+
+/* quality section start here  */
+.quality-btn-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.quality-btn {
+    padding: 20px;
+    background: rgb(40, 79, 123);
+    color: rgba(255, 255, 255, 0.851);
+    font-size: 1.125rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 4px 0px rgba(161, 66, 233, 0.654);
+}
+
+.quality-btn:hover {
+    box-shadow: none;
+    color: black;
+}
+
+.pricing-plan-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.851);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing-plan-container h1 {
+    width: 50%;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.pricing-plan-container p {
+    width: 80%;
+    font-size: 1.25rem;
+    line-height: 2;
+}
+
+/* your script section start here  */
+
+.create-your-script-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.your-script-container {
+    width: 450px;
+    height: 200px;
+    padding:20px 50px;
+    background: linear-gradient(to right, #467FEA, #B533E8);
+    border-radius: 16px;
+}
+
+.your-script-container h3 {
+    color: rgba(255, 255, 255, 0.851);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.your-script-container p {
+    color: rgba(255, 255, 255, 0.851);
+    font-size: 1.125rem;
+    line-height: 2;
+    font-weight: 400;
+}
+.custom-list li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.851);
+    font-size: 1.50rem;
+    font-weight: 400;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.custom-list img{
+    height: 50px;
+    width: 50px;
+}
+.your-script-lists{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.your-script-child-2 img{
+    width: 850px;
+    height: 600px;
+    border: 5px dotted #467FEA ;
+    border-radius: 50px;
+}
+
+.rotate-div-1{
+    height: 50px;
+    width: 50px;
+    background: linear-gradient(45deg, rgb(7, 139, 240), rgb(212, 6, 248));
+    border: 4px solid white;
+    border-radius: 10px;
+    transform: rotate(45deg);
+    position: relative;
+}
+.your-script-spacial-box{
+    display: flex;
+    align-items: center;
+}
+.rotate-left{
+    left: 25px;
+}
+.rotate-right{
+    right: 25px;
+}
+.testimonial-text-and-btn{
+    margin-top: 100px;
+}
+.testimonials-btn{
+    width: 260px;
+}
+
+/* testimonials section start here  */

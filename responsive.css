@@ -11,6 +11,26 @@
     .navigation-bar{
         padding: 0px 20px;
     }
+    .banner-content{
+        font-size: 1.50rem;
+        width: 90%;
+    }
+    .banner-btn-container{
+        display: flex;
+    }
+    .sponsore-container{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    /* create your section start here  */
+    .create-your-script-section{
+        flex-direction: column;
+    }
+    .your-script-child-2 img{
+        width: 450px;
+        height: 300px;
+    }
+
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .head-login{
@@ -29,4 +49,22 @@
         margin: 0px 10px;
         padding:10px;
     }
+    .sponsore-container{
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+    }
+    .banner-content{
+        font-size: 2rem;
+        width: 90%;
+    }
+    .banner-btn-container{
+        display: flex;
+    }
+    .pricing-plan-container h1{
+        width: 90%;
+    }
+    .pricing-plan-container p{
+        width: 100%;
+    }
+    /* create your script section start here  */
 }
